@@ -6,6 +6,7 @@ import Login from "./Components/pages/Login";
 import Signup from "./Components/pages/Signup";
 import Home from "./Components/pages/Home";
 import Ministore from "./Components/pages/Ministore";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/" element={<Home />} />
         <Route path="/store" element={<Ministore />} />
-      </Routes>
+      </Routes>{" "}
+      <ToastContainer />
     </BrowserRouter>
   );
 }
