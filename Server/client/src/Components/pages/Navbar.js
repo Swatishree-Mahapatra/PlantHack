@@ -27,6 +27,12 @@ function Navbar() {
           >
             Mini Store
           </Link>
+          <Link
+            to="/profile"
+            className=" hover:bg-gray-700  px-8 py-2 rounded-md  font-medium"
+          >
+            My Profile
+          </Link>
           <button
             className=" bg-pink-300 hover:bg-gray-900 hover:text-white font-bold py-2 px-4 border  rounded`}
             "
